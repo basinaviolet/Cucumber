@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Элемент не найден",
+    "matchedStatuses": ["broken", "failed"],
+    "messageRegex": "*not found*"
+  },
+  {
+    "name": "Некорректный набор элементов",
+    "matchedStatuses": ["broken", "failed"],
+    "messageRegex": "*not match*"
+  },
+  {
+    "name": "Нет данных",
+    "matchedStatuses": ["broken"],
+    "traceRegex": ".*NullPointerException.*"
+  },
+  {
+    "name": "Actions defects",
+    "matchedStatuses": ["failed"],
+    "messageRegex": "*failed*."
+  },
+  {
+    "name": "Test defects",
+    "matchedStatuses": ["broken"]
+  },
+  {
+    "name": "Ignored tests",
+    "matchedStatuses": ["skipped"]
+  }
+]
